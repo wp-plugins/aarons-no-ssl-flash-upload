@@ -1,4 +1,14 @@
-== Readme ==
+=== Plugin Name ===
+Contributors: aaron44126
+Tags: flash, upload, ssl
+Requires at least: 2.8
+Tested up to: 2.8.6
+Stable tag: 1.0.3
+
+Turns off SSL for the Flash uploader when you have FORCE_SSL_ADMIN enabled, in
+case you are having trouble getting it to work ("IO Error").
+
+== Description ==
 
 If you are using SSL (https) to secure your WordPress admin sessions and you
 have an SSL certificate that is not trusted by default (because it is self-
@@ -21,8 +31,12 @@ Note that this plug-in comes with the following security implications:
   not), they may be able to use it to upload files, view information about
   uploaded files, or change information about uploaded files.
 
-
 == Changelog ==
+
+= 1.0.3 =
+* December 14, 2009.
+* Fixed up readme.
+* Now available in WordPress plug-in directory.
 
 = 1.0.2 =
 * December 11, 2009.

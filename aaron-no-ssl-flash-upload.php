@@ -3,7 +3,7 @@
 Plugin Name: Aaron's NO SSL Flash Upload
 Plugin URI: http://aaron-kelley.net/tech/wordpress/plugin-flashssl/
 Description: The Flash uploader will not use SSL, even if you have forced SSL admin sessions.  This plug-in overrides WordPress's auth_redirect and wp_parse_auth_cookie functions.  The implementations in this plug-in are based on those in WordPress 2.8.6.  I will update them as necessary until a workaround for this problem is included in WordPress or Adobe Flash.  WARNING: This will expose your authentication cookie when using the Flash uploader.  It also relaxes the authentication requirement for using async-upload.php &mdash; this may allow someone to upload files, view information about uploaded flies, or change information about uploaded files if they are able to grab your login cookie (which will be sent via any non-SSL access to your WordPress page).
-Version: 1.0.2
+Version: 1.0.3
 Author: Aaron A. Kelley
 Author URI: http://aaron-kelley.net/
 */
